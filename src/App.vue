@@ -50,7 +50,6 @@ function showLoveReaction(): void {
 
 function showSadReaction(): void {
   if (!isShowNowButton.value || !reactionsRef?.value) return
-
   isShowNowButton.value = false;
   reactionsRef.value.startReaction('sad');
 }
