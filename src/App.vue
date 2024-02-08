@@ -25,6 +25,7 @@
 import { onMounted, ref } from 'vue';
 import HomePage from './components/HomePage.vue';
 import Reactions from './components/Reactions.vue';
+import Audio from '../public/sound1.mp3';
 
 const isShowPlaySound = ref(true);
 const isShowNowButton = ref(true);
