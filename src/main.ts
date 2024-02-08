@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
-import VButton from './components/VButton.vue';
+import VButton from './components/vButton.vue';
 
 const app = createApp(App);
 

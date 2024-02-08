@@ -43,11 +43,13 @@ function closeConfirmDialog(): void {
 }
 
 function showLoveReaction(): void {
+  if (!reactionsRef.value) return
+
   reactionsRef.value.startReaction('love');
 }
 
 function showSadReaction(): void {
-  if (!isShowNowButton.value) return
+  if (!isShowNowButton.value || !reactionsRef.value) return
 
   isShowNowButton.value = false;
   reactionsRef.value.startReaction('sad');
