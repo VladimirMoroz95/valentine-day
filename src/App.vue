@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <audio src="/sound1.mp3" preload="auto" ref="audioRef" />
+    <audio src="https://vm-pv-photos.s3.eu-central-1.amazonaws.com/sound1.mp3" preload="auto" ref="audioRef" />
     <reactions ref="reactionsRef" />
     <div v-if="isShowPlaySound" class="app__confirm">
       <div class="app__confirm-dialog">
@@ -25,7 +25,6 @@
 import { onMounted, ref } from 'vue';
 import HomePage from './components/HomePage.vue';
 import Reactions from './components/Reactions.vue';
-import Audio from '../public/sound1.mp3';
 
 const isShowPlaySound = ref(true);
 const isShowNowButton = ref(true);
