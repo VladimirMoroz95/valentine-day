@@ -44,7 +44,6 @@ function closeConfirmDialog(): void {
 
 function showLoveReaction(): void {
   if (!reactionsRef.value) return
-
   reactionsRef.value.startReaction('love');
 }
 
