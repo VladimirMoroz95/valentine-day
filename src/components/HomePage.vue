@@ -1,7 +1,7 @@
 <template>
   <div class="home-page-wrapper">
     <h1>
-      Today I wanna congratulate you on Valentine's Day and say how I want to tell you how much I love you.
+      Today I wanna congratulate you on Valentine's Day and say how much I love you.
     </h1>
 
     <div
@@ -45,7 +45,7 @@ const photoLinks = [
 ]
 
 const translates = [
-    'Поздравляю с Днем Рождения моря дорогая Полиночка!',
+    'Поздравляю с Днем Святого Валентина моя дорогая Полиночка!',
     'Твоя любовь наполняет мое сердце теплом, твой смех украшает мои дни, а твое присутствие делает каждое мгновение незабываемым. Ты не только моя жена, но и мой лучший друг, мое доверенное лицо и мой самый большой сторонник',
     'Даже мое тело кричит о том как сильно я люблю тебя',
     'Я люблю твой смех',
